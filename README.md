@@ -7,31 +7,35 @@ Microsoft Azure Fundamentals(AZ-900) 학습 저장소입니다. 목표는 자격
 
 ## 로드맵
 
-**영역 1. 클라우드 개념 (25~30%)**
+**영역 1. 클라우드 개념 (25~30%)** (완료 ✅)
 1. 클라우드 컴퓨팅 (완료 ✅)
-2. 클라우드의 이점
-3. 클라우드 서비스 유형 (IaaS/PaaS/SaaS)
+2. 클라우드의 이점 (완료 ✅)
+3. 클라우드 서비스 유형 (IaaS/PaaS/SaaS) (완료 ✅)
 
 **영역 2. Azure 아키텍처 및 서비스 (35~40%)**
 4. 핵심 아키텍처 구성 요소
-5. 컴퓨팅·네트워킹
-6. 스토리지
-7. ID·액세스·보안
+5. 컴퓨팅 및 네트워킹 서비스
+6. 스토리지 서비스
+7. ID, 액세스 및 보안
 
 **영역 3. Azure 관리 및 거버넌스 (30~35%)**
 8. 비용 관리
-9. 거버넌스·규정 준수
-10. 관리·배포 도구
-11. 모니터링
+9. 거버넌스 및 규정 준수
+10. 리소스 관리 및 배포 도구
+11. 모니터링 도구
 
 ## 폴더 구조
 
 ```
 study_azure/
 ├─ README.md
-├─ references/       # 참고 자료 (url.txt 등)
-├─ notes/            # 주제별/페이지별 학습 노트 (.md)
-│   └─ 01-cloud-concepts/
-│       └─ 01-describe-cloud-compute/
-└─ quizzes/          # 퀴즈 모음
+├─ references/       # 학습 참고 링크 및 메타데이터
+├─ notes/            # 로컬 상세 학습 노트 (다이어그램, 퀴즈 해설 포함)
+│   ├─ 01-cloud-concepts/
+│   │   ├─ 01-describe-cloud-compute/
+│   │   ├─ 02-describe-benefits/
+│   │   └─ 03-describe-service-types/
+│   ├─ 02-architecture-and-services/
+│   └─ 03-management-and-governance/
+└─ quizzes/          # 핵심 퀴즈 및 오답 복습 모음
 ```
