@@ -8,7 +8,7 @@ Microsoft Azure Fundamentals(AZ-900) 학습 저장소입니다. 목표는 자격
 ## 로드맵
 
 **영역 1. 클라우드 개념 (25~30%)**
-1. 클라우드 컴퓨팅
+1. [클라우드 컴퓨팅](./notes/01-cloud-concepts/01-describe-cloud-compute/index.md) (완료 ✅ - 7개 단원 노트 및 퀴즈 정리)
 2. 클라우드의 이점
 3. 클라우드 서비스 유형 (IaaS/PaaS/SaaS)
 
@@ -29,7 +29,9 @@ Microsoft Azure Fundamentals(AZ-900) 학습 저장소입니다. 목표는 자격
 ```
 study_azure/
 ├─ README.md
-├─ references/   # 참고 자료 (url.txt 등)
-├─ notes/        # 주제별 학습 노트 (01-cloud-computing.md ...)
-└─ quizzes/      # 퀴즈 HTML
+├─ references/       # 참고 자료 (url.txt 등)
+├─ notes/            # 주제별/페이지별 학습 노트 (.md)
+│   └─ 01-cloud-concepts/
+│       └─ 01-describe-cloud-compute/
+└─ quizzes/          # 퀴즈 모음
 ```
